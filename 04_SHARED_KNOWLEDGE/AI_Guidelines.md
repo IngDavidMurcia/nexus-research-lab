@@ -1,0 +1,484 @@
+# NEXUS Research Lab
+
+# Artificial Intelligence Guidelines
+
+---
+
+Document ID
+
+NRL-SK-004
+
+Version
+
+1.0.0
+
+Status
+
+Draft Standard
+
+Classification
+
+Shared Knowledge
+
+Parent Documents
+
+- NEXUS_CORE.md
+- NEXUS_SPECIFICATION.md
+- Workflow.md
+- Ethics.md
+- Methodology.md
+
+---
+
+# Table of Contents
+
+1. Purpose
+
+2. Scope
+
+3. AI Governance Principles
+
+4. Human Oversight
+
+5. Approved AI Usage
+
+6. AI Verification
+
+7. AI Transparency
+
+8. Compliance
+
+9. Annexes
+
+---
+
+# 1. Purpose
+
+This document establishes the institutional guidelines governing the responsible use of Artificial Intelligence within the NEXUS Research Lab.
+
+These guidelines define how AI systems SHALL support research activities while preserving scientific integrity, methodological rigor, transparency and human accountability.
+
+Artificial Intelligence SHALL be considered an assistive technology rather than an autonomous scientific authority.
+
+---
+
+# 2. Scope
+
+These guidelines apply to every AI system participating in the NEXUS ecosystem, including but not limited to:
+
+- Large Language Models;
+- Multi-Agent Systems;
+- Machine Learning Models;
+- Retrieval-Augmented Generation (RAG);
+- Scientific Search Systems;
+- Automated Review Systems;
+- AI Coding Assistants;
+- AI Publication Tools.
+
+The standard SHALL apply regardless of vendor, platform or deployment model.
+
+---
+
+# 3. AI Governance Principles
+
+Every AI-assisted research activity SHALL comply with the following principles:
+
+- human responsibility;
+- scientific transparency;
+- explainability whenever feasible;
+- evidence-based reasoning;
+- reproducibility;
+- traceability;
+- proportional AI usage;
+- continuous verification;
+- ethical compliance;
+- governance accountability.
+
+AI SHALL augment scientific work without replacing scientific judgment.
+
+---
+
+## 3.1 Human Accountability
+
+Human researchers SHALL remain responsible for:
+
+- research objectives;
+- methodological decisions;
+- scientific interpretation;
+- publication content;
+- ethical compliance;
+- final approval of deliverables.
+
+Responsibility SHALL NOT be delegated to AI systems.
+
+---
+
+## 3.2 AI Role
+
+Within the NEXUS Research Lab, AI MAY assist in:
+
+- literature exploration;
+- idea generation;
+- methodological recommendations;
+- document drafting;
+- language refinement;
+- software development;
+- workflow automation;
+- publication preparation;
+- quality verification.
+
+AI SHALL NOT be treated as an author of scientific work.
+
+---
+
+# 4. Human Oversight
+
+Every AI-generated contribution SHALL undergo human review before becoming part of any official research artifact.
+
+Human oversight SHALL verify:
+
+- factual accuracy;
+- methodological consistency;
+- scientific validity;
+- citation correctness;
+- ethical compliance;
+- logical coherence.
+
+Human review SHALL remain mandatory regardless of AI confidence.
+
+---
+
+## 4.1 Decision Authority
+
+Final decisions regarding research activities SHALL remain under human authority.
+
+AI systems SHALL provide:
+
+- recommendations;
+- analyses;
+- alternatives;
+- summaries;
+- structured reasoning support.
+
+AI SHALL NOT independently authorize:
+
+- publication;
+- methodological changes;
+- governance transitions;
+- ethical approvals;
+- project completion.
+
+---
+
+# 5. Approved AI Usage
+
+AI MAY be used throughout the research lifecycle provided appropriate human supervision is maintained.
+
+Typical approved activities include:
+
+- scientific brainstorming;
+- literature summarization;
+- programming assistance;
+- code review;
+- statistical interpretation support;
+- manuscript drafting;
+- editorial refinement;
+- documentation generation;
+- workflow optimization.
+
+Every AI-assisted activity SHALL remain traceable.
+
+---
+
+# 6. AI Verification
+
+Every AI-generated contribution SHALL undergo appropriate verification before being incorporated into any research artifact.
+
+Verification SHALL be proportional to the potential scientific impact of the generated content.
+
+Verification MAY include:
+
+- factual verification;
+- literature verification;
+- citation verification;
+- methodological verification;
+- statistical verification;
+- code verification;
+- logical consistency review;
+- ethical compliance review.
+
+Verification SHALL be documented whenever appropriate.
+
+---
+
+## 6.1 Reference Verification
+
+AI-generated references SHALL NEVER be assumed to be correct.
+
+Researchers SHALL independently verify:
+
+- author names;
+- publication titles;
+- journal information;
+- publication year;
+- DOI identifiers;
+- URLs;
+- accessibility.
+
+Fabricated or unverifiable references SHALL be rejected.
+
+---
+
+## 6.2 Hallucination Management
+
+Researchers SHALL recognize that AI systems MAY generate inaccurate or fabricated information.
+
+Potential hallucinations SHOULD be identified through:
+
+- independent verification;
+- comparison with authoritative sources;
+- expert review;
+- evidence validation;
+- citation checking.
+
+Unverified AI-generated statements SHALL NOT be presented as scientific facts.
+
+---
+
+## 6.3 Code Verification
+
+Software or scripts generated by AI SHALL undergo technical validation before operational use.
+
+Validation SHOULD include:
+
+- functional testing;
+- security review;
+- dependency verification;
+- performance evaluation;
+- reproducibility testing;
+- documentation review.
+
+AI-generated code SHALL remain subject to human engineering standards.
+
+---
+
+# 7. AI Transparency
+
+Research projects SHOULD transparently document the use of Artificial Intelligence whenever AI substantially contributes to scientific activities.
+
+Transparency strengthens scientific trust and reproducibility.
+
+---
+
+## 7.1 AI Usage Documentation
+
+Documentation MAY include:
+
+- AI system utilized;
+- model version when available;
+- purpose of AI assistance;
+- affected project phases;
+- verification procedures;
+- human review activities.
+
+Documentation SHALL remain proportional to the significance of AI involvement.
+
+---
+
+## 7.2 Attribution
+
+Artificial Intelligence SHALL NOT be listed as:
+
+- author;
+- co-author;
+- principal investigator;
+- scientific reviewer.
+
+Scientific credit SHALL remain assigned exclusively to human contributors unless future publication standards explicitly recognize alternative attribution models.
+
+---
+
+## 7.3 AI Limitations
+
+Researchers SHOULD explicitly recognize AI limitations, including:
+
+- possible hallucinations;
+- incomplete domain knowledge;
+- reasoning limitations;
+- outdated information;
+- statistical uncertainty;
+- contextual misunderstandings.
+
+Understanding these limitations SHALL guide responsible AI usage.
+
+---
+
+# 8. Compliance
+
+An AI-assisted research project SHALL be considered compliant if it:
+
+- preserves human accountability;
+- applies appropriate AI verification;
+- documents significant AI usage;
+- complies with ethical standards;
+- preserves methodological rigor;
+- maintains traceability;
+- satisfies governance requirements.
+
+Non-compliant AI usage SHOULD trigger additional review before project progression.
+
+---
+
+## Compliance Levels
+
+| Level | Description |
+|--------|-------------|
+| AI0 | Non-Compliant |
+| AI1 | Basic Responsible AI Usage |
+| AI2 | Verified AI-Assisted Research |
+| AI3 | Fully Governed AI Research |
+| AI4 | Reference AI Governance Implementation |
+
+---
+
+# 9. Annexes
+
+## Annex A — Related Specifications
+
+This standard SHALL be interpreted together with:
+
+- NEXUS_CORE.md
+- Workflow.md
+- Methodology.md
+- Ethics.md
+- SQI.md
+- NACP.md
+- Editorial_Standards.md
+- Citation_Standards.md
+- Research_Integrity_Auditor.md
+
+---
+
+## Annex B — Responsible AI Principles
+
+Every AI-assisted activity SHOULD preserve:
+
+- human responsibility;
+- scientific integrity;
+- transparency;
+- traceability;
+- reproducibility;
+- evidence-based reasoning;
+- ethical compliance;
+- continuous verification.
+
+These principles SHALL apply independently of AI provider or model architecture.
+
+---
+
+## Annex C — AI Governance Workflow
+
+Every AI-assisted activity SHOULD conceptually follow the lifecycle below.
+
+```text
+Task Definition
+
+↓
+
+AI Assistance
+
+↓
+
+Human Review
+
+↓
+
+Evidence Verification
+
+↓
+
+Methodological Validation
+
+↓
+
+Ethical Assessment
+
+↓
+
+Scientific Approval
+
+↓
+
+Project Integration
+
+↓
+
+Documentation
+```
+
+This workflow SHALL remain compatible with the NEXUS governance architecture.
+
+---
+
+## Annex D — Future Evolution
+
+Future versions MAY include:
+
+- autonomous agent governance;
+- multi-agent collaboration policies;
+- AI provenance verification;
+- model benchmarking standards;
+- explainability assessment metrics;
+- AI risk classification frameworks;
+- secure execution environments;
+- continuous AI auditing;
+- model certification profiles.
+
+These extensions SHALL preserve backward compatibility with this standard.
+
+---
+
+# Conformance Statement
+
+This document defines the official Artificial Intelligence Guidelines adopted by the NEXUS Research Lab.
+
+It establishes a technology-independent governance framework ensuring responsible, transparent and verifiable use of Artificial Intelligence throughout the research lifecycle.
+
+Every compliant implementation SHALL preserve these governance characteristics regardless of AI provider, execution platform or model architecture.
+
+---
+
+# End of Document
+
+Document ID
+
+NRL-SK-004
+
+Document
+
+Artificial Intelligence Guidelines
+
+Version
+
+1.0.0
+
+Status
+
+Draft Standard
+
+Classification
+
+Shared Knowledge
+
+Maintained By
+
+NEXUS Research Lab
+
+Parent Documents
+
+- NEXUS_CORE.md
+- NEXUS_SPECIFICATION.md
+- Workflow.md
+- Ethics.md
+- Methodology.md
+
