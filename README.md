@@ -324,15 +324,9 @@ Consulte el archivo **LICENSE** para obtener más información.
 # Autor
 
 ## David Murcia
-
-AI Engineer
-
-Software Developer
-
-Researcher
+AI Engineer | Software Developer | Researcher
 
 GitHub
-
 https://github.com/IngDavidMurcia
 
 ---
