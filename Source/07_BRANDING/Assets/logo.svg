@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="emeraldGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Hexagon Base (Deep Navy) -->
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="none" stroke="#0F172A" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Inner Connecting Lines (Slate Gray) -->
+  <line x1="200" y1="40" x2="200" y2="200" stroke="#64748B" stroke-width="6" opacity="0.4" />
+  <line x1="60" y1="120" x2="200" y2="200" stroke="#64748B" stroke-width="6" opacity="0.4" />
+  <line x1="340" y1="120" x2="200" y2="200" stroke="#64748B" stroke-width="6" opacity="0.4" />
+  <line x1="60" y1="280" x2="200" y2="200" stroke="#64748B" stroke-width="6" opacity="0.4" />
+  <line x1="340" y1="280" x2="200" y2="200" stroke="#64748B" stroke-width="6" opacity="0.4" />
+  <line x1="200" y1="360" x2="200" y2="200" stroke="#64748B" stroke-width="6" opacity="0.4" />
+  
+  <!-- Outer Orbit / Network Ring -->
+  <circle cx="200" cy="200" r="110" fill="none" stroke="url(#blueGradient)" stroke-width="10" stroke-dasharray="80 30" stroke-linecap="round"/>
+  
+  <!-- Nodes (Emerald and Blue) -->
+  <circle cx="200" cy="40" r="16" fill="#0F172A" />
+  <circle cx="60" cy="120" r="14" fill="#2563EB" />
+  <circle cx="340" cy="120" r="14" fill="#2563EB" />
+  <circle cx="60" cy="280" r="14" fill="#10B981" />
+  <circle cx="340" cy="280" r="14" fill="#10B981" />
+  <circle cx="200" cy="360" r="16" fill="#0F172A" />
+  
+  <!-- Central Hub -->
+  <circle cx="200" cy="200" r="28" fill="url(#emeraldGradient)" />
+  <circle cx="200" cy="200" r="12" fill="#FFFFFF" />
+  
+</svg>
