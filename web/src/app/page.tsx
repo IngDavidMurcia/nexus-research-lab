@@ -206,7 +206,7 @@ export default function Home() {
               {dic.subtitle}
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed text-justify">
             {dic.desc}
           </p>
 
