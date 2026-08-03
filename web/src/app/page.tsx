@@ -10,9 +10,9 @@ const CITE_LINK = "https://openreview.net/forum?id=L5fZHoaUCF";
 
 const t = {
   es: {
-    title: "Gobernanza Científica para",
+    title: "NEXUS: Gobernanza Científica para",
     subtitle: "Investigación Asistida por IA",
-    desc: "Un framework de fricción cero con arquitectura multi-ventana que previene las alucinaciones de los LLM e impone una estricta separación de roles. Diseñado para flujos académicos rigurosos.",
+    desc: "Transforma tu LLM favorito en un equipo de investigación altamente especializado. Este framework elimina las alucinaciones y la pérdida de contexto mediante un protocolo de chats aislados, donde cada ventana de IA asume un rol estricto (director, redactor, auditor, revisor ... ) compartiendo un estado único permitiendo incluso el uso de una o multiples IA sin perder contexto, maximizando el poder de atención del modelo seleccionado. Metodología científica rigurosa y auditable, lista para ejecutarse de inmediato sin escribir una sola línea de código.",
     getStarted: "Descargar Framework (Zero Install)",
     readDocs: "Leer la Documentación",
     navArch: "Arquitectura",
@@ -50,7 +50,16 @@ const t = {
       rev: "Scientific Reviewer",
       pub: "Publication Specialist",
       aud: "Integrity Auditor"
-    }
+    },
+    featuresTitle: "Funciones y Capacidades del Framework",
+    featuresList: [
+      { title: "Orquestación de proyectos", desc: "Control centralizado del flujo de trabajo y gestión del historial del proyecto mediante la actualización continua del estado en archivos YAML." },
+      { title: "Diseño metodológico", desc: "Estructuración formal de la investigación, abarcando la definición del problema, las preguntas de investigación, las hipótesis y la ruta metodológica." },
+      { title: "Redacción académica rigurosa", desc: "Generación de secciones específicas del documento (introducción, estado del arte, metodología) enfocándose exclusivamente en la escritura sin mezclar otras tareas." },
+      { title: "Revisión y escrutinio crítico", desc: "Evaluación profunda de los borradores para detectar fallas lógicas, vacíos argumentativos o sesgos, operando como un revisor de pares (peer-review)." },
+      { title: "Auditoría de integridad", desc: "Verificación estricta de la trazabilidad de los datos, control absoluto de alucinaciones y aseguramiento de la calidad metodológica general." },
+      { title: "Adecuación para publicación", desc: "Ajuste y formateo del documento final para cumplir con las normativas, estilos de citación y requisitos específicos de revistas o congresos científicos." }
+    ]
   },
   en: {
     title: "Scientific Governance for",
@@ -93,7 +102,16 @@ const t = {
       rev: "Scientific Reviewer",
       pub: "Publication Specialist",
       aud: "Integrity Auditor"
-    }
+    },
+    featuresTitle: "Framework Functions and Capabilities",
+    featuresList: [
+      { title: "Project Orchestration", desc: "Centralized workflow control and project history management through continuous state updates in YAML files." },
+      { title: "Methodological Design", desc: "Formal structuring of the research, covering problem definition, research questions, hypotheses, and methodological route." },
+      { title: "Rigorous Academic Writing", desc: "Generation of specific document sections (introduction, state of the art, methodology) focusing exclusively on writing without mixing other tasks." },
+      { title: "Critical Review and Scrutiny", desc: "Deep evaluation of drafts to detect logical flaws, argumentative gaps, or biases, operating as a peer-reviewer." },
+      { title: "Integrity Audit", desc: "Strict verification of data traceability, absolute control of hallucinations, and assurance of general methodological quality." },
+      { title: "Publication Formatting", desc: "Adjustment and formatting of the final document to comply with regulations, citation styles, and specific requirements of scientific journals or conferences." }
+    ]
   }
 };
 
@@ -262,8 +280,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Features List Section */}
+      <section className="py-24 px-6 relative">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-slate-900 dark:text-white">{dic.featuresTitle}</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {dic.featuresList.map((feature, idx) => (
+              <div key={idx} className="bg-white dark:bg-slate-800 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg hover:-translate-y-1 transition-transform">
+                <div className="w-10 h-10 rounded-full bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-4 border border-emerald-200 dark:border-emerald-800">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold mb-2 text-slate-900 dark:text-slate-100">{feature.title}</h3>
+                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">{feature.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Workflow Section */}
-      <section id="workflow" className="py-24 px-6 relative">
+      <section id="workflow" className="py-24 px-6 relative bg-slate-100 dark:bg-slate-900/50 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-white">{dic.workflowTitle}</h2>
           <p className="text-slate-600 dark:text-slate-400 mb-16 text-lg max-w-3xl mx-auto leading-relaxed">
@@ -277,7 +315,7 @@ export default function Home() {
       </section>
 
       {/* Specialists Section */}
-      <section id="specialists" className="py-24 px-6 bg-slate-100 dark:bg-slate-900/50 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
+      <section id="specialists" className="py-24 px-6 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-white">{dic.specialistsTitle}</h2>
           <p className="text-slate-600 dark:text-slate-400 mb-6 text-lg max-w-2xl mx-auto">
@@ -338,14 +376,18 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {/* Step 1 */}
             <div className="bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-xl transition-all hover:-translate-y-2 group text-left">
-              <div className="w-14 h-14 bg-emerald-100 dark:bg-emerald-900/40 rounded-full flex items-center justify-center mb-6 border border-emerald-200 dark:border-emerald-800 text-emerald-600 dark:text-emerald-400 text-2xl font-bold">1</div>
+              <div className="w-16 h-16 bg-emerald-100 dark:bg-emerald-900/40 rounded-full flex items-center justify-center mb-6 border border-emerald-200 dark:border-emerald-800">
+                <img src="/Assets/logo.svg" alt="NEXUS" className="w-8 h-8 opacity-80" />
+              </div>
               <h3 className="text-xl font-bold mb-3">{dic.qsStep1Title}</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">{dic.qsStep1Desc}</p>
             </div>
 
             {/* Step 2 */}
             <div className="bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-xl transition-all hover:-translate-y-2 group text-left relative">
-              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-900/40 rounded-full flex items-center justify-center mb-6 border border-blue-200 dark:border-blue-800 text-blue-600 dark:text-blue-400 text-2xl font-bold">2</div>
+              <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900/40 rounded-full flex items-center justify-center mb-6 border border-blue-200 dark:border-blue-800">
+                <img src="/Assets/Modules/logo_director.svg" alt="Director" className="w-8 h-8 opacity-80" />
+              </div>
               <h3 className="text-xl font-bold mb-3">{dic.qsStep2Title}</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">{dic.qsStep2Desc}</p>
 
@@ -355,7 +397,9 @@ export default function Home() {
 
             {/* Step 3 */}
             <div className="bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-xl transition-all hover:-translate-y-2 group text-left relative">
-              <div className="w-14 h-14 bg-purple-100 dark:bg-purple-900/40 rounded-full flex items-center justify-center mb-6 border border-purple-200 dark:border-purple-800 text-purple-600 dark:text-purple-400 text-2xl font-bold">3</div>
+              <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900/40 rounded-full flex items-center justify-center mb-6 border border-purple-200 dark:border-purple-800">
+                <img src="/Assets/Modules/logo_specialist.svg" alt="Specialist" className="w-8 h-8 opacity-80" />
+              </div>
               <h3 className="text-xl font-bold mb-3">{dic.qsStep3Title}</h3>
               <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">{dic.qsStep3Desc}</p>
 
