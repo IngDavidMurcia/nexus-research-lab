@@ -1,6 +1,6 @@
-# NEXUS Automation Guide (Zero Friction) 🚀
+# NEXUS Automation Guide (Zero Friction)
 
-NEXUS Research Lab is designed for the human to be the active orchestrator across multiple chat windows. This guarantees zero hallucination cross-contamination. 
+NEXUS Research Lab Está diseñado para que el ser humano actúe como el orquestador activo a través de múltiples ventanas de chat. Esto garantiza la ausencia de contaminación cruzada por alucinaciones
 Sin embargo, **para equipos técnicos, desarrolladores y power users** que buscan automatizar el flujo (fricción cero), existen alternativas robustas que mantienen la separación de roles mediante código o webhooks.
 
 ## 1. Arquitectura Conceptual de Automatización

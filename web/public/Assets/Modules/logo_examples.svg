@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="emeraldGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- Solid Hexagon Base -->
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="url(#emeraldGradient)" stroke="#0F172A" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Checkmark -->
+  <path d="M 130 200 L 180 250 L 280 140" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

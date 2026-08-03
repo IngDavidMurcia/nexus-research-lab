@@ -34,7 +34,7 @@ Cuando le pides a una IA que "escriba un artículo científico", esta mezcla rol
 NEXUS resuelve esto imponiendo un **Protocolo Multi-Ventana**. El investigador humano actúa como puente entre agentes de IA aislados.
 
 <p align="center">
-  <img src="Source/07_BRANDING/Assets/Diagrams/architecture_diagram.svg" alt="Diagrama de Arquitectura NEXUS" width="80%"/>
+  <img src="Source/07_BRANDING/Assets/Diagrams/architecture_diagram_es.svg" alt="Diagrama de Arquitectura NEXUS" width="80%"/>
 </p>
 
 1. **El Director**: Orquesta el proyecto, valida reglas y mantiene el estado del proyecto en un archivo YAML.
@@ -47,7 +47,7 @@ NEXUS resuelve esto imponiendo un **Protocolo Multi-Ventana**. El investigador h
 NEXUS no requiere que instales código Python ni bases de datos locales. Está impulsado enteramente por *prompts* y se ejecuta directamente en tu interfaz de chat de IA favorita. Logra la persistencia del estado pasando un **Project Snapshot (YAML)** de un lado a otro.
 
 <p align="center">
-  <img src="Source/07_BRANDING/Assets/Diagrams/workflow_diagram.svg" alt="Diagrama de Flujo de Trabajo NEXUS" width="100%"/>
+  <img src="Source/07_BRANDING/Assets/Diagrams/workflow_diagram_es.svg" alt="Diagrama de Flujo de Trabajo NEXUS" width="100%"/>
 </p>
 
 1. **Inicializar**: Cargas al Director en la Ventana 1.
@@ -57,7 +57,7 @@ NEXUS no requiere que instales código Python ni bases de datos locales. Está i
 
 ---
 
-## 🚀 Guía de Inicio
+## Guía de Inicio
 
 Puedes ejecutar NEXUS en cualquier LLM moderno (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro). Hemos compilado toda la arquitectura en 8 archivos Markdown fáciles de usar ubicados en la carpeta `DISTRIBUTION/COMPILED/`.
 
@@ -72,7 +72,7 @@ O descarga el paquete completo listo para usar:
 
 ---
 
-## 🏛️ Los Especialistas
+## Los Especialistas
 
 El paquete compilado incluye los siguientes roles:
 

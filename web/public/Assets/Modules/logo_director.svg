@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Hexagon Base (Deep Navy) -->
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="#0F172A" stroke="#10B981" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Director Symbol: Central Node Orchestrating -->
+  <circle cx="200" cy="200" r="40" fill="#2563EB" />
+  <circle cx="200" cy="200" r="16" fill="#FFFFFF" />
+  
+  <!-- Outgoing orchestration paths -->
+  <path d="M 200 140 L 200 100" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 8"/>
+  <path d="M 200 260 L 200 300" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 8"/>
+  
+  <path d="M 148 170 L 113 150" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 8"/>
+  <path d="M 252 230 L 287 250" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 8"/>
+  
+  <path d="M 148 230 L 113 250" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 8"/>
+  <path d="M 252 170 L 287 150" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 8"/>
+
+  <!-- Satellite Nodes -->
+  <circle cx="200" cy="100" r="12" fill="#10B981" />
+  <circle cx="113" cy="150" r="12" fill="#10B981" />
+  <circle cx="113" cy="250" r="12" fill="#10B981" />
+  <circle cx="200" cy="300" r="12" fill="#10B981" />
+  <circle cx="287" cy="250" r="12" fill="#10B981" />
+  <circle cx="287" cy="150" r="12" fill="#10B981" />
+
+</svg>

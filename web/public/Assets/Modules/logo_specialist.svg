@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Hexagon Base -->
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="#2563EB" stroke="#0F172A" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Specialist Symbol: Gear / Focus -->
+  <circle cx="200" cy="200" r="70" fill="none" stroke="#FFFFFF" stroke-width="16" />
+  
+  <!-- Gear Teeth -->
+  <line x1="200" y1="100" x2="200" y2="120" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="200" y1="280" x2="200" y2="300" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="100" y1="200" x2="120" y2="200" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="280" y1="200" x2="300" y2="200" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  
+  <line x1="129" y1="129" x2="143" y2="143" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="271" y1="271" x2="257" y2="257" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="129" y1="271" x2="143" y2="257" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="271" y1="129" x2="257" y2="143" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Inner Focus Point -->
+  <circle cx="200" cy="200" r="24" fill="#10B981" />
+</svg>

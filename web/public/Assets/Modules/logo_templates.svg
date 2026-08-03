@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Blueprint Hexagon Outline -->
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="none" stroke="#2563EB" stroke-width="8" stroke-dasharray="12 12" stroke-linejoin="round"/>
+  
+  <!-- Internal grid/blueprint guides -->
+  <line x1="200" y1="40" x2="200" y2="360" stroke="#64748B" stroke-width="4" stroke-dasharray="8 8" opacity="0.6"/>
+  <line x1="60" y1="120" x2="340" y2="280" stroke="#64748B" stroke-width="4" stroke-dasharray="8 8" opacity="0.6"/>
+  <line x1="60" y1="280" x2="340" y2="120" stroke="#64748B" stroke-width="4" stroke-dasharray="8 8" opacity="0.6"/>
+  
+  <!-- Structural Nodes -->
+  <circle cx="200" cy="200" r="16" fill="#10B981" />
+  <circle cx="200" cy="40" r="10" fill="#0F172A" />
+  <circle cx="340" cy="120" r="10" fill="#0F172A" />
+  <circle cx="340" cy="280" r="10" fill="#0F172A" />
+  <circle cx="200" cy="360" r="10" fill="#0F172A" />
+  <circle cx="60" cy="280" r="10" fill="#0F172A" />
+  <circle cx="60" cy="120" r="10" fill="#0F172A" />
+</svg>

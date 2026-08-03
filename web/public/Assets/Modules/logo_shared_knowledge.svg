@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Hexagon Base -->
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="#E2E8F0" stroke="#64748B" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Stacked Database Discs (Shared Knowledge) -->
+  <ellipse cx="200" cy="140" rx="70" ry="25" fill="#0F172A" />
+  <path d="M 130 140 L 130 190 A 70 25 0 0 0 270 190 L 270 140 A 70 25 0 0 1 130 140 Z" fill="#2563EB" />
+  
+  <ellipse cx="200" cy="190" rx="70" ry="25" fill="#0F172A" />
+  <path d="M 130 190 L 130 240 A 70 25 0 0 0 270 240 L 270 190 A 70 25 0 0 1 130 190 Z" fill="#10B981" />
+  
+  <ellipse cx="200" cy="240" rx="70" ry="25" fill="#0F172A" />
+  <path d="M 130 240 L 130 290 A 70 25 0 0 0 270 290 L 270 240 A 70 25 0 0 1 130 240 Z" fill="#64748B" />
+  
+</svg>

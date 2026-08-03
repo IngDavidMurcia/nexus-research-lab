@@ -34,7 +34,7 @@ When you ask an AI to "write a scientific paper," it blends roles: it tries to b
 NEXUS solves this by imposing a **Multi-Window Protocol**. The researcher acts as the bridge between isolated AI agents.
 
 <p align="center">
-  <img src="Source/07_BRANDING/Assets/Diagrams/architecture_diagram.svg" alt="NEXUS Architecture Diagram" width="80%"/>
+  <img src="Source/07_BRANDING/Assets/Diagrams/architecture_diagram_en.svg" alt="NEXUS Architecture Diagram" width="80%"/>
 </p>
 
 1. **The Director**: Orchestrates the project, validates rules, and maintains the project state in a YAML file.
@@ -47,7 +47,7 @@ NEXUS solves this by imposing a **Multi-Window Protocol**. The researcher acts a
 NEXUS does not require you to install any Python code or local databases. It is entirely prompt-driven and runs directly in your favorite AI chat interface. It achieves state persistence by passing a **Project Snapshot (YAML)** back and forth.
 
 <p align="center">
-  <img src="Source/07_BRANDING/Assets/Diagrams/workflow_diagram.svg" alt="NEXUS Workflow Diagram" width="100%"/>
+  <img src="Source/07_BRANDING/Assets/Diagrams/workflow_diagram_en.svg" alt="NEXUS Workflow Diagram" width="100%"/>
 </p>
 
 1. **Initialize**: You load the Director in Window 1.
@@ -96,3 +96,4 @@ If you are a **technical developer**, **prompt engineer**, or **specialized rese
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+

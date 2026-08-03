@@ -13,8 +13,8 @@
   <rect width="1000" height="700" fill="url(#bgGradient)" rx="16" />
 
   <!-- Title -->
-  <text x="500" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#0F172A" text-anchor="middle">NEXUS Research Lab â€” Multi-Window Architecture</text>
-  <text x="500" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" fill="#64748B" text-anchor="middle">Strict separation of concerns via independent LLM chat windows</text>
+  <text x="500" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#0F172A" text-anchor="middle">NEXUS Research Lab â€” Arquitectura Multi-Ventana</text>
+  <text x="500" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" fill="#64748B" text-anchor="middle">Separación estricta de roles mediante ventanas de chat independientes</text>
 
   <!-- Top Layer: Foundations -->
   <path d="M 330 180 L 450 250" fill="none" stroke="#64748B" stroke-width="3" stroke-dasharray="6 4" />
@@ -31,7 +31,7 @@
   <text x="280" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">CORE Rules</text>
   <text x="280" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Source/01_CORE</text>
 
-  <!-- Shared Knowledge Module -->
+  <!-- Conocimiento Compartido Module -->
   <g transform="translate(690, 110) scale(0.15)" filter="url(#shadow)">
     <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="#E2E8F0" stroke="#64748B" stroke-width="12" stroke-linejoin="round"/>
     <ellipse cx="200" cy="140" rx="70" ry="25" fill="#0F172A" />
@@ -41,7 +41,7 @@
     <ellipse cx="200" cy="240" rx="70" ry="25" fill="#0F172A" />
     <path d="M 130 240 L 130 290 A 70 25 0 0 0 270 290 L 270 240 A 70 25 0 0 1 130 240 Z" fill="#64748B" />
   </g>
-  <text x="720" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">Shared Knowledge</text>
+  <text x="720" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">Conocimiento Compartido</text>
   <text x="720" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Source/04_SHARED_KNOWLEDGE</text>
 
   <!-- Arrows to/from Human (Rendered Behind) -->
@@ -65,12 +65,12 @@
     <circle cx="200" cy="200" r="16" fill="#FFFFFF" />
   </g>
   <text x="520" y="265" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">NEXUS Director</text>
-  <text x="520" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">Window 1 (Always Open)</text>
-  <text x="520" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#10B981" text-anchor="middle">Orchestration &amp; State</text>
+  <text x="520" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">Ventana 1 (Siempre Abierta)</text>
+  <text x="520" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#10B981" text-anchor="middle">Orquestación y Estado</text>
 
   <!-- Specialist Boxes -->
   <g transform="translate(0, 90)">
-    <!-- 1. Research Architect -->
+    <!-- 1. Arquitecto de Invest. -->
     <rect x="80" y="360" width="160" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)" />
     <rect x="80" y="360" width="160" height="6" fill="#2563EB" />
     <g transform="translate(130, 370) scale(0.125)">
@@ -78,10 +78,10 @@
       <circle cx="200" cy="200" r="70" fill="none" stroke="#FFFFFF" stroke-width="20" />
       <circle cx="200" cy="200" r="24" fill="#10B981" />
     </g>
-    <text x="160" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Research Architect</text>
-    <text x="160" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Window 2</text>
+    <text x="160" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Arquitecto de Invest.</text>
+    <text x="160" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Ventana 2</text>
 
-    <!-- 2. Scientific Writer -->
+    <!-- 2. Redactor Científico -->
     <rect x="250" y="360" width="160" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)" />
     <rect x="250" y="360" width="160" height="6" fill="#2563EB" />
     <g transform="translate(300, 370) scale(0.125)">
@@ -89,10 +89,10 @@
       <circle cx="200" cy="200" r="70" fill="none" stroke="#FFFFFF" stroke-width="20" />
       <circle cx="200" cy="200" r="24" fill="#10B981" />
     </g>
-    <text x="330" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Scientific Writer</text>
-    <text x="330" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Window 3</text>
+    <text x="330" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Redactor Científico</text>
+    <text x="330" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Ventana 3</text>
 
-    <!-- 3. Scientific Reviewer -->
+    <!-- 3. Revisor Científico -->
     <rect x="420" y="360" width="160" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)" />
     <rect x="420" y="360" width="160" height="6" fill="#2563EB" />
     <g transform="translate(470, 370) scale(0.125)">
@@ -100,8 +100,8 @@
       <circle cx="200" cy="200" r="70" fill="none" stroke="#FFFFFF" stroke-width="20" />
       <circle cx="200" cy="200" r="24" fill="#10B981" />
     </g>
-    <text x="500" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Scientific Reviewer</text>
-    <text x="500" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Window 4</text>
+    <text x="500" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Revisor Científico</text>
+    <text x="500" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Ventana 4</text>
 
     <!-- 4. Publication Spec -->
     <rect x="590" y="360" width="160" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)" />
@@ -111,10 +111,10 @@
       <circle cx="200" cy="200" r="70" fill="none" stroke="#FFFFFF" stroke-width="20" />
       <circle cx="200" cy="200" r="24" fill="#10B981" />
     </g>
-    <text x="670" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Publication Spec.</text>
-    <text x="670" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Window 5</text>
+    <text x="670" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Especialista en Publ.</text>
+    <text x="670" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Ventana 5</text>
 
-    <!-- 5. Integrity Auditor -->
+    <!-- 5. Auditor de Integridad -->
     <rect x="760" y="360" width="160" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)" />
     <rect x="760" y="360" width="160" height="6" fill="#2563EB" />
     <g transform="translate(810, 370) scale(0.125)">
@@ -122,18 +122,19 @@
       <circle cx="200" cy="200" r="70" fill="none" stroke="#FFFFFF" stroke-width="20" />
       <circle cx="200" cy="200" r="24" fill="#10B981" />
     </g>
-    <text x="840" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Integrity Auditor</text>
-    <text x="840" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Window 6</text>
+    <text x="840" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">Auditor de Integridad</text>
+    <text x="840" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Ventana 6</text>
   </g>
 
-  <!-- Human Researcher -->
+  <!-- Investigador Humano -->
   <rect x="400" y="580" width="200" height="80" rx="40" fill="#10B981" filter="url(#shadow)" />
-  <text x="500" y="610" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Human Researcher</text>
-  <text x="500" y="630" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Copies YAML Snapshot</text>
-  <text x="500" y="650" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">between windows</text>
+  <text x="500" y="610" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Investigador Humano</text>
+  <text x="500" y="630" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Copia el Snapshot YAML</text>
+  <text x="500" y="650" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">entre ventanas</text>
 
   <!-- Arrows to/from Human (Moved up for Z-Index) -->
   
   <!-- Legend -->
   <text x="80" y="670" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#64748B" font-style="italic">* Specialists are loaded on-demand in separate windows to prevent hallucination and role-blurring. You don't necessarily have to have six windows open.</text>
 </svg>
+
